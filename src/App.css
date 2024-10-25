@@ -1,0 +1,23 @@
+#root {
+  background-color: #fff;
+  min-width: 20rem;
+  min-height: 649.6px;
+  border-radius: 5px;
+  -webkit-box-shadow: 10px 10px 67px -36px rgba(186, 118, 231, 1);
+  -moz-box-shadow: 10px 10px 67px -36px rgba(186, 118, 231, 1);
+  box-shadow: 10px 10px 67px -36px rgba(186, 118, 231, 1);
+}
+
+.container {
+  padding: 20px;
+}
+
+@media screen and (max-width: 350px) {
+  #root {
+    width: 100%;
+  }
+
+  .container {
+    padding: 12px;
+  }
+}

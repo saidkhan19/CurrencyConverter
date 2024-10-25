@@ -1,0 +1,21 @@
+.result {
+  margin-top: 0.5em;
+  margin-bottom: 0;
+  text-align: center;
+  font-size: 2.4rem;
+  font-weight: bold;
+  color: #858585;
+}
+
+.result span {
+  font-size: 1.8rem;
+}
+
+.rate {
+  margin: 0;
+  text-align: center;
+  font-size: 0.9rem;
+  font-weight: medium;
+  font-style: italic;
+  color: #858585;
+}

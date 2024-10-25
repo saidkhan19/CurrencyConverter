@@ -1,0 +1,33 @@
+.rates {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.rates td {
+  padding: 8px 0;
+}
+
+.rates tr:not(:last-child) {
+  border-bottom: 1px solid #cccccc;
+}
+
+.value {
+  width: 30%;
+  color: #858585;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.ticker {
+  display: flex;
+  align-items: center;
+}
+
+.ticker img {
+  margin-inline: 5px;
+  width: 35px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid #eee;
+}
