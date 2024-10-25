@@ -1,0 +1,44 @@
+.input-container {
+  width: 100%;
+  position: relative;
+}
+
+.input-container input {
+  width: inherit;
+  margin: 0;
+  padding: 0.7rem;
+  border: 1px solid #cccccc;
+  border-radius: 3px;
+  outline: none;
+  font-family: "Raleway", sans-serif;
+  font-size: 2.2rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #858585;
+  text-align: center;
+}
+
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: baseline;
+  gap: 0.4rem;
+  font-size: 2.2rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #858585;
+  text-align: center;
+}
+
+.overlay .code {
+  font-size: 1rem;
+}
+
+.error {
+  width: 100%;
+  margin: 0;
+  color: red;
+}

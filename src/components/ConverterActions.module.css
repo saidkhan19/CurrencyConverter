@@ -1,0 +1,46 @@
+.converter-actions {
+  margin-top: 1.7rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #858585;
+}
+
+.btn-exchange {
+  width: 50px;
+  aspect-ratio: 1;
+  position: relative;
+  padding: 0;
+  font-size: 0.9rem;
+  border: none;
+  background-color: transparent;
+  color: #858585;
+  cursor: pointer;
+}
+
+.btn-exchange img {
+  width: inherit;
+  aspect-ratio: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: transform 1s ease-in;
+}
+
+.btn-calculate {
+  width: 50px;
+  aspect-ratio: 1;
+  margin-left: 10px;
+  border: none;
+  border-radius: 50%;
+  background-color: #ff71a6;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1rem;
+  box-shadow: 1px 1px 7px 0px rgba(255, 113, 166, 1);
+  cursor: pointer;
+}
+
+.rotate {
+  transform: rotate(-180deg);
+}

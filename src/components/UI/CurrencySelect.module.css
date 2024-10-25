@@ -1,0 +1,17 @@
+.select-menu-option {
+  display: flex;
+  gap: 1rem;
+}
+
+.select-menu-option img {
+  width: 40px;
+  aspect-ratio: 3;
+  object-fit: contain;
+}
+
+.select-value {
+  font-weight: normal;
+  letter-spacing: 1px;
+  color: #858585;
+  font-size: 1rem;
+}
