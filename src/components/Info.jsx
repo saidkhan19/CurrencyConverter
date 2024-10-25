@@ -9,7 +9,8 @@ const Info = () => {
         <a href="https://github.com/saidkhan19" target="_blank">
           Sayid
         </a>
-        . Repository - <a href="#">GitHub</a>
+        . Repository -{" "}
+        <a href="https://github.com/saidkhan19/CurrencyConverter">GitHub</a>
       </p>
       <p>
         Design -{" "}
